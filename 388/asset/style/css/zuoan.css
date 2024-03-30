@@ -1,0 +1,110 @@
+.pc{display: block;}
+.wap{display: none;}
+
+.am-topbar{background:#fff;}
+.w-nav{background: #17509d}
+
+.list-nav .curBg{background: none;}
+
+.am-menu li:first-child a{      height: 141px;    line-height: 141px;}
+.list-main{min-height: 500px;}
+ 
+.list-nav{background: #f8f8f8;}
+.list-nav li.list-active a, .list-nav li a:hover{color:#013c89; font-weight: bold;}
+ .list-news li{background: #f8f8f8}
+.myvideo{width:100%; min-height:500px;}
+  
+     .w1300{max-width: 1200px; margin: 0 auto;}
+     .contactus{width:100%; overflow: hidden; margin: 40px auto;}
+    .contactus .contactus1{width:33%; float: left; text-align: center;}
+    .contactus .contactus1 img{max-height: 80px; display: inline-block; margin: 0 auto;}
+    .contactus .contactus1 .name{font-size: 18px; line-height: 30px; color:#333; font-weight:500;}
+    .contactus .contactus1 .txt{font-size: 14px; line-height: 24px; color:#333;}
+  
+  .x-mess-nrtxt{width: 473px; margin-left: 0; margin-top: 30px;}
+
+.info-top .info-tit{height: 60px; padding-top: 15px;}
+.info-top a img{height: 200px; border:1px solid #ddd;}
+.info-top h2{font-size: 20px; font-weight: 300;}
+.fo-bq{margin-top: 20px}
+.list-pag{border-bottom: 0px #cacaca solid}
+.next a{color:#333;}
+
+.title_wap{display: none;}
+ .wappic{display: none;}
+
+ .mid-nr .mid-ms{background:rgba(0,0,0,.6);}
+.mid-nr .mid-ms h4{margin-top: 23%}
+.fo-bq{font-size: 14px;}
+
+.footer{padding:50px 0;}
+
+.wtop-r{margin-top: 16px;}
+button,input{outline:none;}
+.top-time{color:#333;  height: 34px;}
+.top .search{height:34px; border:2px solid #e6e6e6; border-radius:2px; background:#fff; padding:0px 0px;}
+.top .search input{border:none; background:#fff; height:24px; line-height:32px;  padding-left:5px;}
+.top .search a{width:64px; height:24px; background:#e6e6e6; line-height:32px; text-align:center; color:#333;}
+
+.top .search:hover{ height:34px; border:2px solid #17509d; border-radius:2px; background:#fff; padding:0px 0px;}
+.top .search:hover input{border:none; background:#fff; height:24px; line-height:32px; padding-left:5px;}
+.top .search:hover a{ width:64px; height:24px; background:#17509d; line-height:32px; text-align:center; color:#fff;}
+.sub{height: 30px; background:none; border:none; font-size: 14px; line-height: 30px; background:#e6e6e6; color:#333;}
+.top .search:hover .sub{background:#17509d; color:#fff;}
+
+
+@media(max-width: 768px){
+	.list-news li .list-news-time{margin-bottom: 15px;}
+	.list-news li .list-news-nr{ width: 100%; padding-left: 0}
+	.list-news li .list-news-nr:after{background: none;}
+	 .list-single img,.list-single p img{width:auto; }
+      .myvideo{min-height:300px; width:98%; }
+      .list-nav li a{padding:0 20px;}
+
+  .w1300{width:auto; padding:0 20px; margin:0 auto;  margin-bottom:50px; }
+.contactus .contactus1{width:100%; display:block; margin-bottom:30px;}
+
+.x-mess-nrtxt{width: 98%}
+
+
+.pc{display: none;}
+.wap{display: block;}
+
+.info-top .info-tit{background: #f1f1f1; margin-top: 0; height: 40px; padding-top: 5px}
+.info-top h2{color:#333;  font-size: 18px;   text-align: left;    padding-left: 10px}
+
+
+.wapabout{width: 100%; }
+.wapabout .title{ width: 100%;background: #17509d; height: 50px; line-height: 50px; font-size: 18px; font-weight: 300; text-align: center;  color:#fff;}
+.wapabout .content{font-size: 14px; line-height: 30px; padding:10px;}
+
+.btn11{width: 100px; height: 34px; line-height: 34px; color:#fff; text-align: center; font-size: 16px;  display: block; background: #17509d; border-radius: 5px; margin:20px auto; }
+
+.am-topbar{min-height: 60px;}
+.am-topbar-brand{height:60px; line-height: 60px;}
+.mopen{margin-top: 15px;}
+.mopen img{width: 26px;}
+}
+
+
+ 
+  @media(max-width: 640px){
+  .info-list{display: block;}
+  .info-top{background-color: #fff; border-bottom: 2px solid #ddd; padding-bottom: 2px;}
+  .info-top a img{width: 120px; height: 100px; display: inline-block; float: left;}
+    .title_wap{display: inline-block; float: left; width: 200px; color:#333; margin-left: 15px; margin-top: 15px; font-weight: bold;}
+    .title_wap span{color:#333; display: block; width: 100%; text-align: right; font-weight:normal; font-size: 13px; float: right; margin-top: 5px;}
+     .wappic{display: inline-block; float: left; width: 100px; height: 60px;}
+     .wappic img{width: 100%; height: 100%;}
+     .x-news-list li p{padding-left: 5px;}
+     .waptitle{ height: 24px; overflow-y: hidden; display: block; margin-left: 105px!important}
+     .x-news-list li.not img{margin-left: 0}
+     .x-title > h4{margin-bottom: 20px;}
+
+.info-pd{padding:0 10px;}
+.info-midpd{padding:0 15px;}
+.mid-nr{padding:0 0 20px 0;}
+
+
+  }
+
